@@ -11,4 +11,7 @@ bitbake-layers add-layer ../meta-openembedded/meta-networking
 bitbake-layers add-layer ../meta-openembedded/meta-gnome
 bitbake-layers add-layer ../meta-openembedded/meta-xfce
 
+bitbake-layers add-layer ../meta-example
+bitbake-layers add-layer ../poky/meta-skeleton
+
 cp ../scripts/local.conf conf/local.conf
